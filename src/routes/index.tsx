@@ -11,13 +11,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Aide à domicile par Cassandra Gasnier, infirmière de profession. Accompagnement des personnes âgées dépendantes, pathologies lourdes et handicap. Lun, mar, jeu, ven · 9h–16h · 06 69 99 29 11.",
+          "Aide à domicile par Cassandra Gasnier, infirmière de profession. Accompagnement des personnes âgées dépendantes, pathologies lourdes, handicap et fin de vie. Lun, mar, jeu, ven · 9h–16h · 06 69 99 29 11.",
       },
       { property: "og:title", content: "Cassandra Gasnier — Aide à domicile" },
       {
         property: "og:description",
         content:
-          "Un accompagnement humain et attentionné à domicile : personnes âgées dépendantes, pathologies lourdes, handicap. Contact : 06 69 99 29 11.",
+          "Un accompagnement humain et attentionné à domicile : personnes âgées dépendantes, pathologies lourdes, handicap, fin de vie. Contact : 06 69 99 29 11.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -49,6 +49,12 @@ const services = [
     label: "(c)",
     title: "Handicap",
     text: "Un accompagnement personnalisé, respectueux et adapté à chaque besoin et à chaque rythme.",
+  },
+  {
+    icon: Flower2,
+    label: "(d)",
+    title: "Accompagnement de fin de vie",
+    text: "Une présence douce et bienveillante au quotidien, pour la personne et pour ses proches, dans le respect et la sérénité.",
   },
 ];
 
