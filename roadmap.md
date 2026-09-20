@@ -1,7 +1,6 @@
 # Roadmap
 
-- [x] Créer le site one-page de Cassandra Gasnier — aide à domicile (personnes âgées dépendantes, pathologies lourdes, handicap)
-- [x] Coordonnées visibles partout : 06 69 99 29 11 · cassandra.gasnier@hotmail.fr
-- [x] Horaires intégrés : 9h–16h, lundi, mardi, jeudi, vendredi
-- [x] Images générées (hero + portrait) et vérification visuelle
-- [ ] (Optionnel) Remplacer le portrait généré par une vraie photo de Cassandra si elle en envoie une
+- [x] Site vitrine aide à domicile (hero, services, à propos, horaires, contact)
+- [x] Ajout accompagnement de fin de vie
+- [ ] Mettre le site en ligne (publication demandée, interrompue — à relancer)
+- [ ] Choisir le nom de l'adresse du site (slug) avec l'utilisatrice
