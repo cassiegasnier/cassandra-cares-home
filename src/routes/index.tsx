@@ -2,7 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Phone, Mail, Clock, HeartHandshake, Home, Accessibility, Flower2 } from "lucide-react";
 
 import heroCare from "@/assets/hero-care.jpg";
-import portrait from "@/assets/cassandra-portrait.jpg";
+import portraitAsset from "@/assets/cassandra-portrait.png.asset.json";
+
+const portrait = portraitAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
