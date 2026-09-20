@@ -29,8 +29,7 @@ jobs:
       - name: Build static site
         env:
           GITHUB_PAGES: "true"
-          # Custom domain at the apex (e.g. cassandradomicile.fr): set BASE_PATH to "/"
-          # BASE_PATH: "/"
+          BASE_PATH: "/"
         run: npm run build
 
       - name: Prepare static output
