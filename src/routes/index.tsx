@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Phone, Mail, Clock, HeartHandshake, Home, Accessibility } from "lucide-react";
+import { Phone, Mail, Clock, HeartHandshake, Home, Accessibility, Flower2 } from "lucide-react";
 
 import heroCare from "@/assets/hero-care.jpg";
 import portrait from "@/assets/cassandra-portrait.jpg";
@@ -151,10 +151,10 @@ function Index() {
               Ce que j'accompagne
             </h2>
             <span className="hidden text-xs font-semibold uppercase tracking-[0.2em] text-primary sm:block">
-              Trois domaines
+              Quatre domaines
             </span>
           </div>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
             {services.map((s) => (
               <div
                 key={s.title}
@@ -303,7 +303,7 @@ function Index() {
           <span className="font-display font-semibold text-background/80">
             Cassandra Gasnier
           </span>
-          <span>© 2026 · Aide à domicile · Personnes âgées, pathologies lourdes, handicap</span>
+          <span>© 2026 · Aide à domicile · Personnes âgées, pathologies lourdes, handicap, fin de vie</span>
         </div>
       </footer>
     </div>
