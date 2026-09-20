@@ -2,5 +2,6 @@
 
 - [x] Site vitrine aide à domicile (hero, services, à propos, horaires, contact)
 - [x] Ajout accompagnement de fin de vie
-- [ ] Mettre le site en ligne (publication demandée, interrompue — à relancer)
-- [ ] Choisir le nom de l'adresse du site (slug) avec l'utilisatrice
+- [x] Configuration technique pour hébergement statique GitHub Pages
+- [ ] Mettre le site en ligne (au choix : Lovable ou GitHub Pages — aucun déploiement lancé)
+- [ ] Domaine cassandradomicile.fr à réserver, puis à connecter
